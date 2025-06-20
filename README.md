@@ -30,5 +30,38 @@ An AI-powered platform that helps users assess and improve critical soft skills 
 - Random Forest Regressor
 - Feature Engineering for skill prediction
 
+## 📂 Repository Structure
+soft-skills/
+├── static/ # CSS/JS assets
+├── templates/ # HTML templates
+│ └── index.html # Main interface
+├── soft_skills_model.pkl # Trained ML model
+├── app.py # Flask application
+├── requirements.txt # Dependencies
+└── README.md
 
+text
+
+## 🖥️ Local Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/soft-skills-platform.git
+   cd soft-skills-platform
+Create and activate virtual environment:
+
+bash
+python -m venv venv
+source venv/bin/activate  # Linux/MacOS
+venv\Scripts\activate    # Windows
+Install dependencies:
+
+bash
+pip install -r requirements.txt
+Run the Flask app:
+
+bash
+python app.py
+
+run on local host
 
